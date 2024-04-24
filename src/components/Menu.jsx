@@ -22,8 +22,8 @@ export default function Menu() {
     setIsDropdownOpen((prev) => !prev);
   };
   return (
-    <nav className="w-full z-10 fixed top-0 left-0">
-      <ul className="relative h-16 shadow-smooth flex gap-8 justify-center items-center bg-white text-black after:content-[''] after:absolute after:bottom-[-4px] after:w-full after:h-[4px] after:bg-shining">
+    <nav className="w-[95%] z-10 fixed top-4 left-[50%] translate-x-[-50%]">
+      <ul className="relative h-16 w-full rounded-full shadow-smooth flex gap-8 justify-center items-center bg-white text-black ">
         <img className="h-8" src={logo} alt="Rebecca Hendel logo" />
         <li className="hover:text-red hover:font-bold w-[100px] text-center transition-all duration-200">
           <Link to={`/`}>Home</Link>
@@ -37,7 +37,7 @@ export default function Menu() {
         >
           <button onClick={handleDropdown}>
             <span>Work</span>
-            <i className="ml-2 fa-solid fa-angle-down"></i>
+            <i className={`${isDropDownOpen ? "fa-angle-up" : "fa-angle-down"} ml-2 fa-solid`}></i>
           </button>
 
         </li>
@@ -45,9 +45,9 @@ export default function Menu() {
           <ul
             className={`${
               isDropDownOpen ? "block" : "hidden"
-            } absolute top-20 w-44 whitespace-nowrap bg-gold p-2 rounded-2xl shadow-smooth`}
+            } absolute top-[4.5rem] w-44 whitespace-nowrap bg-white p-2 rounded-2xl shadow-smooth`}
           >
-            <li className="rounded-lg text-black hover:bg-black/20 hover:font-bold transition-all duration-200">
+            <li className="rounded-lg text-black hover:bg-black/10 hover:font-bold hover:text-red transition-all duration-200">
               <Link
                 to={`/works/social-media`}
                 className="w-full p-2 inline-block"
@@ -55,7 +55,7 @@ export default function Menu() {
                 Social Media
               </Link>
             </li>
-            <li className="rounded-lg text-black hover:bg-black/20 hover:font-bold transition-all duration-200">
+            <li className="rounded-lg text-black hover:bg-black/10 hover:font-bold hover:text-red transition-all duration-200">
               <Link
                 to={`/works/advertisement`}
                 className="w-full p-2 inline-block"
@@ -63,7 +63,7 @@ export default function Menu() {
                 Ads
               </Link>
             </li>
-            <li className="rounded-lg text-black hover:bg-black/20 hover:font-bold transition-all duration-200">
+            <li className="rounded-lg text-black hover:bg-black/10 hover:font-bold hover:text-red transition-all duration-200">
               <Link
                 to={`/works/photography`}
                 className="w-full p-2 inline-block"
@@ -71,7 +71,7 @@ export default function Menu() {
                 Photography
               </Link>
             </li>
-            <li className="rounded-lg text-black hover:bg-black/20 hover:font-bold transition-all duration-200">
+            <li className="rounded-lg text-black hover:bg-black/10 hover:font-bold hover:text-red transition-all duration-200">
               <Link to={`/works/webdesign`} className="w-full p-2 inline-block">
                 Webdesign
               </Link>

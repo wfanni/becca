@@ -6,12 +6,12 @@ import Menu from "../components/Menu";
 
 export default function Home() {
   return (
-    <>
+    <main className="w-full bg-slate-200">
       <Menu />
       <Hero />
       <HomeAbout />
       <Features />
       <Footer />
-    </>
+    </main>
   );
 }

@@ -49,7 +49,7 @@ export default function Menu() {
           >
             <li className="rounded-lg text-black hover:bg-black/20 hover:font-bold transition-all duration-200">
               <Link
-                to={`/social-media-works`}
+                to={`/works/social-media`}
                 className="w-full p-2 inline-block"
               >
                 Social Media
@@ -57,7 +57,7 @@ export default function Menu() {
             </li>
             <li className="rounded-lg text-black hover:bg-black/20 hover:font-bold transition-all duration-200">
               <Link
-                to={`/advertisement-works`}
+                to={`/works/advertisement`}
                 className="w-full p-2 inline-block"
               >
                 Ads
@@ -65,14 +65,14 @@ export default function Menu() {
             </li>
             <li className="rounded-lg text-black hover:bg-black/20 hover:font-bold transition-all duration-200">
               <Link
-                to={`/photography-works`}
+                to={`/works/photography`}
                 className="w-full p-2 inline-block"
               >
                 Photography
               </Link>
             </li>
             <li className="rounded-lg text-black hover:bg-black/20 hover:font-bold transition-all duration-200">
-              <Link to={`/webdesign-works`} className="w-full p-2 inline-block">
+              <Link to={`/works/webdesign`} className="w-full p-2 inline-block">
                 Webdesign
               </Link>
             </li>

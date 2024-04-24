@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo2.svg";
 
 export default function Menu() {
   const [isDropDownOpen, setIsDropdownOpen] = useState(false);
@@ -22,7 +22,7 @@ export default function Menu() {
     setIsDropdownOpen((prev) => !prev);
   };
   return (
-    <nav className="w-full fixed top-0 left-0">
+    <nav className="w-full z-10 fixed top-0 left-0">
       <ul className="relative h-16 shadow-smooth flex gap-8 justify-center items-center bg-white text-black after:content-[''] after:absolute after:bottom-[-4px] after:w-full after:h-[4px] after:bg-shining">
         <img className="h-8" src={logo} alt="Rebecca Hendel logo" />
         <li className="hover:text-red hover:font-bold w-[100px] text-center transition-all duration-200">

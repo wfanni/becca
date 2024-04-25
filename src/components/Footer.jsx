@@ -10,6 +10,8 @@ export default function Footer() {
             <a href="https://www.freepik.com/free-vector/gradient-instagram-social-media-background_108789485.htm#fromView=image_search_similar&page=1&position=0&uuid=0de06a1b-ec4b-4c62-9f05-51255bbc25f9">Image by freepik</a>
             <a href="https://www.freepik.com/free-vector/magnet-attracting-hearts-thumbs-up_6144797.htm#fromView=image_search_similar&page=1&position=6&uuid=0de06a1b-ec4b-4c62-9f05-51255bbc25f9">Image by pikisuperstar on Freepik</a>
             <a href="https://www.freepik.com/free-vector/3d-social-media-icons-background_6144803.htm#fromView=image_search_similar&page=1&position=21&uuid=0de06a1b-ec4b-4c62-9f05-51255bbc25f9">Image by pikisuperstar on Freepik</a>
+            <a href="https://www.freepik.com/free-vector/like-icon-3d-vector-illustration-heart-symbol-red-bubble-social-media-applications-cartoon-style-isolated-white-background-online-communication-digital-marketing-concept_50932218.htm#fromView=search&page=1&position=9&uuid=3bf44b43-54a7-4674-b372-3c876d950cc5">Image by Kampus on Freepik</a>
+            <a href="https://www.freepik.com/free-vector/gradient-computer-screen-illustration-color-year-2023_35223763.htm#fromView=search&page=1&position=11&uuid=50479206-c6d7-4d2f-9a81-ac074879d81f">Image by freepik</a>
             <a href="https://www.freepik.com/free-vector/facebook-background-with-heart-like-icons_2422628.htm#fromView=image_search_similar&page=1&position=31&uuid=0de06a1b-ec4b-4c62-9f05-51255bbc25f9">Image by freepik</a> */}
         </footer>
     )

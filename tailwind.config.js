@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      "playfair": ['"Playfair Display"', "serif"],
+    },
     extend: {
       colors: {
         "black": "#131200",
@@ -12,12 +15,17 @@ export default {
         "red": "#BC000A",
         "green": "#b5d99c",
         "gold": "#de911e",
+        "light-gray": "#ebebeb",
       },
       backgroundImage: {
         "shining": "linear-gradient(to right, #de911e, #FFC877, #de911e)",
         "hero": "url('./src/assets/new-hero4.png')",
         "typing": "url('./src/assets/typing.svg')",
-        "gray-gradient": "linear-gradient(to bottom, #ebebeb, #fff 90%)"
+        "gray-gradient": "linear-gradient(to bottom, #ebebeb, #fff 90%)",
+        "contact": "url('./src/assets/contact-bg1.png')",
+        "sos": "url('/src/assets/sos-bg3.svg')",
+        "socials": "url('/src/assets/socials-bg21.png')",
+        "massage": "url('/src/assets/massage-bg.png')",
       },
       boxShadow: {
         "smooth": "0px 60px 53px rgba(19, 18, 0, 0.09), 0px 28.7264px 32.6525px rgba(19, 18, 0, 0.0646969), 0px 19.2311px 28.6176px rgba(19, 18, 0, 0.0536497), 0px 13.6419px 24.8757px rgba(19, 18, 0, 0.045), 0px 9.05205px 19.1515px rgba(19, 18, 0, 0.0363503), 0px 4.60936px 10.8924px rgba(19, 18, 0, 0.0253031)"

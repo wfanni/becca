@@ -3,8 +3,15 @@
 @tailwind utilities;
 body {
   font-family: "Raleway";
+  color: #131200;
 }
 
 h1 {
   font-family: "Playfair Display";
+}
+
+dialog::backdrop {
+  background-color: rgba(19, 18, 0, 0.4039215686);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
 }/*# sourceMappingURL=index.css.map */

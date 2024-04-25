@@ -5,8 +5,8 @@ import Success from "./Success";
 export default function About() {
   return (
     <section className="w-full mx-auto h-fit bg-gray-gradient py-12 pt-32 flex flex-col gap-12 justify-start items-center">
-      <div className="w-4/5 gap-28 flex justify-between items-center">
-        <div className="grid grid-cols-2 auto-rows-[minmax(80px,auto)] gap-4 h-fit">
+      <div className="w-4/5 gap-12 flex justify-center items-center">
+        <div className="w-1/2 gap-8 flex flex-col text-justify">
           <h1 className="text-4xl w-fit self-center justify-self-center">
             About Me
           </h1>
@@ -39,15 +39,15 @@ export default function About() {
             it doesn't hold a candle to man.
           </p>
 
+        </div>
           <img
             src={aboutPic}
-            className="w-[90%] row-span-4 row-start-2 justify-self-center"
+            className="w-1/2 mt-12"
           />
-        </div>
       </div>
       <Link
         to={`/contact`}
-        className="place-self-center w-fit px-4 py-2 -mt-28 bg-red text-white rounded-full hover:bg-red/80 transition-all duration-200 shadow-lg"
+        className="place-self-center w-fit -mt-12 py-2 px-12 bg-red rounded-full text-white font-semibold hover:bg-black hover:shadow-md transition-all duration-300"
       >
         Contact me
       </Link>

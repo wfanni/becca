@@ -10,40 +10,62 @@ export default function About() {
           <h1 className="text-4xl w-fit self-center justify-self-center">
             About Me
           </h1>
-          <p className="row-start-2 self-center">
-            Normally, both your asses would be dead as fucking fried chicken,
-            but you happen to pull this shit while I'm in a transitional period
-            so I don't wanna kill you, I wanna help you. But I can't give you
-            this case, it don't belong to me. Besides, I've already been through
-            too much shit this morning over this case to hand it over to your
-            dumb ass.
+          <p>
+            As a content creator, I create photos, videos for social media. I
+            strive to make my work reflect the personality and brand of my
+            clients, thereby also helping them find their online voice.
           </p>
-          <p className="row-start-3">
-            My money's in that office, right? If she start giving me some
-            bullshit about it ain't there, and we got to go someplace else and
-            get it, I'm gonna shoot you in the head then and there. Then I'm
-            gonna shoot that bitch in the kneecaps, find out where my goddamn
-            money is. She gonna tell me too. Hey, look at me when I'm talking to
-            you, motherfucker. You listen: we go in there, and that nigga
-            Winston or anybody else is in there, you the first motherfucker to
-            get shot. You understand?
-          </p>
-          <p className="row-start-4">
-            You think water moves fast? You should see ice. It moves like it has
-            a mind. Like it knows it killed the world once and got a taste for
-            murder. After the avalanche, it took us a week to climb out. Now, I
-            don't know exactly when we turned on each other, but I know that
-            seven of us survived the slide... and only five made it out. Now we
-            took an oath, that I'm breaking now. We said we'd say it was the
-            snow that killed the other two, but it wasn't. Nature is lethal but
-            it doesn't hold a candle to man.
-          </p>
-
+          <div className="flex flex-col gap-4">
+            <h2 className="font-playfair text-xl text-red font-semibold">
+              Crafting Digital Experiences
+            </h2>
+            <p>
+              I approach every project with a fresh perspective, infusing
+              creativity into every aspect of my work. Through captivating
+              photos, engaging videos, and compelling content, I help brands
+              connect with their audience authentically.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <h2 className="font-playfair text-xl text-red font-semibold">
+              Personalized Branding
+            </h2>
+            <p>
+              Understanding that each brand has its own unique voice, I
+              specialize in creating content that reflects the personality and
+              ethos of my clients. By aligning visual aesthetics and messaging,
+              I empower brands to find their distinct online identity.
+            </p>
+          </div>
         </div>
-          <img
-            src={aboutPic}
-            className="w-1/2 mt-12"
-          />
+        <img src={aboutPic} className="w-1/2 mt-12" />
+      </div>
+      <div className="w-4/5 -mt-28 pb-16 flex flex-col gap-8 items-start text-justify">
+        <div className="flex flex-col gap-4">
+          <h2 className="font-playfair text-xl text-red font-semibold">
+            Driving Results
+          </h2>
+          <p className="w-3/4">
+            With over two years of experience in PPC and social media
+            management, I have honed my skills in crafting targeted
+            advertisements that resonate with diverse audiences. From strategy
+            development to execution, I am committed to delivering impactful
+            campaigns that drive measurable results.
+          </p>
+        </div>
+        <div className="flex flex-col gap-4">
+          <h2 className="font-playfair text-xl text-red font-semibold">
+            Driving Results
+          </h2>
+          <p className="w-3/4">
+            A Proactive Approach: Driven by a keen eye for detail and a passion
+            for excellence, I take a proactive approach to every project. By
+            staying ahead of industry trends and leveraging data-driven
+            insights, I ensure that every campaign achieves optimal performance
+            and exceeds expectations.
+          </p>
+        </div>
+        <p>Let's collaborate to unlock the full potential of your digital presence and bring your brand vision to life.</p>
       </div>
       <Link
         to={`/contact`}

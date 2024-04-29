@@ -1,7 +1,10 @@
-export default function Photography() {
+import Work from "./Work";
+import WorkWrapper from "./WorkWrapper";
+
+export default function Photography({ content }) {
     return (
-      <>
-        <h1 className="text-center text-5xl">PHOTOGRAPHY</h1>
-      </>
+      <WorkWrapper content={content}>
+      <Work content={content} />
+    </WorkWrapper>
     );
   }

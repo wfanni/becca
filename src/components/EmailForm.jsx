@@ -36,7 +36,7 @@ export default function EmailForm() {
       });
   }
   return (
-    <div className="w-1/2 flex flex-col gap-4 justify-center items-center">
+    <div className="w-1/2 flex flex-col gap-12 justify-center items-center">
       <h1 className="text-4xl font-semibold self-center">Contact Me</h1>
 
       <form

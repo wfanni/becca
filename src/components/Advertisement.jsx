@@ -1,7 +1,12 @@
-export default function Advertisement() {
-    return (
-      <>
-        <h1 className="text-center text-5xl">ADVERTISEMENT</h1>
-      </>
-    );
-  }
+import Work from "./Work";
+import WorkWrapper from "./WorkWrapper";
+
+export default function Advertisement({ content }) {
+  return (
+    <WorkWrapper content={content}>
+      <Work content={content}>
+
+      </Work>
+    </WorkWrapper>
+  );
+}

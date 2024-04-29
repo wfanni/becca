@@ -52,7 +52,7 @@ export default function Menu() {
                 to={`/works/social-media`}
                 className="w-full p-2 inline-block"
               >
-                Social Media
+                Content Creation
               </Link>
             </li>
             <li className="rounded-lg text-black hover:bg-black/10 hover:font-bold hover:text-red transition-all duration-200">
@@ -60,7 +60,7 @@ export default function Menu() {
                 to={`/works/advertisement`}
                 className="w-full p-2 inline-block"
               >
-                Ads
+                Marketing
               </Link>
             </li>
             <li className="rounded-lg text-black hover:bg-black/10 hover:font-bold hover:text-red transition-all duration-200">

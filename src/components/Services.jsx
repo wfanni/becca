@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import ad from "../assets/rectangle-ad-solid.svg";
 import contentCreation from "../assets/content-creation.jpg";
 import advert from "../assets/advertisement.jpg";
 import photography from "../assets/photography.jpg";

@@ -19,10 +19,10 @@ export default {
       },
       backgroundImage: {
         "shining": "linear-gradient(to right, #de911e, #FFC877, #de911e)",
-        "hero": "url('./src/assets/new-hero4.png')",
-        "typing": "url('./src/assets/typing.svg')",
+        "hero": "url('/src/assets/new-hero4.png')",
+        "typing": "url('/src/assets/typing.svg')",
         "gray-gradient": "linear-gradient(to bottom, #ebebeb, #fff 90%)",
-        "contact": "url('./src/assets/contact-bg1.png')",
+        "contact": "url('/src/assets/contact-bg1.png')",
         "sos": "url('/src/assets/sos-bg3.svg')",
         "socials": "url('/src/assets/socials-bg21.png')",
         "massage": "url('/src/assets/massage-bg.png')",

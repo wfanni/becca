@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./index.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ErrorPage from "./ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import Home from "./pages/Home";
@@ -13,41 +13,39 @@ import ContactPage from "./pages/ContactPage";
 function App() {
   return (
     <>
-      <Router basename="/">
         <Routes>
-          <Route path="/" element={<Home />} errorelement={<ErrorPage />} />
+          <Route path="/" element={<Home />} errorElement={<ErrorPage />} />
           <Route
             path="/about"
             element={<AboutPage />}
-            errorelement={<ErrorPage />}
+            errorElement={<ErrorPage />}
           />
           <Route
             path="/works/social-media"
             element={<SocialMediaPage />}
-            errorelement={<ErrorPage />}
+            errorElement={<ErrorPage />}
           />
           <Route
             path="/works/advertisement"
             element={<AdsPage />}
-            errorelement={<ErrorPage />}
+            errorElement={<ErrorPage />}
           />
           <Route
             path="/works/photography"
             element={<PhotographyPage />}
-            errorelement={<ErrorPage />}
+            errorElement={<ErrorPage />}
           />
           <Route
             path="/works/webdesign"
             element={<WebdesignPage />}
-            errorelement={<ErrorPage />}
+            errorElement={<ErrorPage />}
           />
           <Route
             path="/contact"
             element={<ContactPage />}
-            errorelement={<ErrorPage />}
+            errorElement={<ErrorPage />}
           />
         </Routes>
-      </Router>
     </>
   );
 }

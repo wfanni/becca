@@ -4,7 +4,7 @@ export default function Work({ children, content }) {
       {content.works.map((work) => (
           <section
             key={work.name}
-            className={`w-full min-h-screen flex flex-col gap-6 justify-center items-center ${work.bgStyles}`}
+            className={`w-full min-h-screen mb-8 flex flex-col gap-6 justify-center items-center ${work.bgStyles} only:mb-0`}
           >
             <article className="w-4/5 min-h-screen flex flex-col gap-4 ">
               <div className="flex gap-6 items-center">

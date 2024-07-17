@@ -71,11 +71,11 @@ export default function Menu() {
                 Photography
               </Link>
             </li>
-            <li className="rounded-lg text-black hover:bg-black/10 hover:font-bold hover:text-red transition-all duration-200">
+            {/* <li className="rounded-lg text-black hover:bg-black/10 hover:font-bold hover:text-red transition-all duration-200">
               <Link to={`/works/webdesign`} className="w-full p-2 inline-block">
                 Webdesign
               </Link>
-            </li>
+            </li> */}
           </ul>
           </li>
         <li className="hover:text-red hover:font-bold w-[100px] text-center transition-all duration-200">

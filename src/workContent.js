@@ -13,6 +13,14 @@ const workContent = {
                 title: "SOS Children's Villages",
                 intro: "SOS is a non-profit organisation that unites people to provide help to unpriviliged children around Hungary. In past 2 years I worked together with 15 influencers on different campaigns. With 5 of them I managed to establish a great relationship to be able to collaborate long term.",
                 bgStyles: "bg-sos bg-[length:50%] bg-no-repeat bg-[right_-7%_center]"
+            },
+            {
+                haslogo: false,
+                logo: "fa-solid fa-heart",
+                name: "reviews",
+                title: "Cafés & restaurants",
+                intro: "I'm happy to accept content creation requests from different bars, cafés and restaurants. I usually go for a friendly and trendy vibe in the videos, showing as much from the place's vibe as possible to reel in more customers.",
+                bgStyles: ""
             }
         ]
     },
